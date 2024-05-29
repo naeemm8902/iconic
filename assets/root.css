@@ -1,0 +1,30 @@
+:root {
+    --black: #1B1212; /* Black */
+    --white: #fff; /* white */
+    --blue: #3498db; /* Blue */
+    --green: #2ecc71; /* Green */
+    --red: #e74c3c; /* Red */
+    --yellow: #D68910; /* yellow */
+    --lightyellow: #F1E41E; /* yellow */
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: var(--black); */
+}
+::-webkit-scrollbar {
+    width: 1em;
+    background-color: var(--white);
+    /* background-color: rgb(241, 239, 239); */
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-thumb {
+    /* background-color: #000000; */
+        background-color: var(--black);
+}
+
+/* Root */
