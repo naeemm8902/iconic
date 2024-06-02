@@ -178,7 +178,6 @@
             <img src="../images/bookicon.png" alt="logo" />
             <!-- <h1>Iconic Book Store</h1> -->
             <h1>Iconic Bookies<sup>™</sup></h1>
-
         </div>
         <ul>
             <li>

@@ -1,0 +1,232 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1B1212;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+
+.card {
+    max-width: 75%;
+    /* height: 90vh; */
+    margin: 40px auto;
+    background: #FDFFAB;
+    border-radius: 1.85rem;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 0 6rem 0 6rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.nav_btn {
+    margin-left: 1rem;
+    padding: 0.5rem;
+    width: 8rem;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 0.35rem;
+    outline: none;
+}
+
+.signup_btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.signup_btn_mobileScreen{
+    display: none;
+}
+
+.inner_card_1-01 {
+    padding: 2rem 4rem;
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.left_card h2 {
+    margin: 0 0 2.75rem 0;
+}
+
+.left_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+input,
+.form_btn {
+    margin: 0.25rem 0 0.85rem 0;
+    width: 85%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.45rem;
+    outline: none;
+
+}
+
+.form_btn {
+    background: #000;
+    color: #fff;
+}
+
+.forgot_btn p {
+    margin: -0.5rem
+    
+}
+
+.social_login_btn {
+    margin: 1.5rem 16rem 0 0;
+    display: flex;
+}
+
+.icons_margin {
+    margin-left: 0.75rem;
+}
+
+
+.right_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+img {
+    /* margin-top: -2rem; */
+    width: 21rem;
+    height: 21rem;
+}
+i{
+    color: black;
+}
+button:hover ,i:hover{
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width:430px) {
+ 
+    nav{
+    text-align: start;
+    padding-left: 2.75rem;
+    }
+    .inner_card_1-01{
+        margin-top: 1rem;
+        width: 100%;
+        padding: 1.5rem;
+        /* text-align: center; */
+    }
+    form input ,.form_btn{
+        width: 100%;
+    }
+    .signup_btn{
+        display: none;
+    }
+    .signup_btn_mobileScreen{
+        padding-top: 1.5rem;
+        display: flex;
+        justify-content: start;
+    }
+
+
+    .right_card{
+        display: none;
+    }
+
+    .social_login_btn{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:770px) {
+ 
+    nav{
+    text-align: start;
+    padding-left: 2.75rem;
+    }
+    .inner_card_1-01{
+        margin-top: 1rem;
+        width: 100%;
+        padding: 2.5rem;
+    }
+    form input ,.form_btn{
+        width: 100%;
+    }
+    .signup_btn{
+        display: none;
+    }
+    .signup_btn_mobileScreen{
+        padding-top: 1.5rem;
+        display: flex;
+        justify-content: start;
+    }
+
+
+    .right_card{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:1025px )
+{
+    .inner_card_1-01{
+        width: 100%;
+        padding: 2rem;
+    }
+    .social_login_btn{
+        margin-left: 3rem;
+    }
+    .social_login_btn p{
+        width: 5rem;
+    }
+    .left_card{
+    padding-left: 1rem;
+    width: 50%;
+    }
+
+    .right_card{
+        width: 50%;
+    }
+
+
+}
